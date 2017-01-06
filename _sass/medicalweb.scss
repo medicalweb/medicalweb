@@ -1,0 +1,42 @@
+h1.page-title {
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  font-family: "brandon-grotesque";
+  font-size: 100px;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 8px;
+  font-weight: 300;
+  font-style: normal;
+  max-width: 100%;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  color: #fff;
+  position: relative;
+  z-index: inherit;
+}
+
+section.busy-doctor {
+  height: 100vh;
+  background: url('../assets/images/about.svg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .middle-cta {
+    background: white;
+    height: 250px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text {
+      text-align: center;
+    }
+  }
+}
