@@ -35,6 +35,8 @@ section.busy-doctor {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.9;
+    border-radius: 20px;
     .text {
       text-align: center;
     }
