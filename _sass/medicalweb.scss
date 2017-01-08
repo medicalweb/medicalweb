@@ -11,6 +11,10 @@ section.home {
   svg {
     overflow: visible;
   }
+  .heart-loader {
+    position: fixed;
+    z-index: -1;
+  }
 }
 
 section.doctors-busy {
