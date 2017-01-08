@@ -13,6 +13,18 @@ section.home {
   }
 }
 
+section.doctors-busy {
+  .background-retro {
+    background: url('../assets/images/about.svg');
+  }
+  h1 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
+
 section.main {
   background-color: #db5858;
   .casette {
@@ -23,7 +35,7 @@ section.main {
   }
   .typed-content, .typed-cursor {
     color: white;
-    font-size: 40px
+    font-size: 45px
   }
 }
 
@@ -36,14 +48,17 @@ section.busy-doctor {
   .middle-cta {
     background: white;
     height: 250px;
-    width: 600px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.9;
-    border-radius: 20px;
+    background-color: rgba(255,255,255, 0.8);
     .text {
       text-align: center;
     }
   }
+}
+
+footer.site-footer {
+  height: 90px;
 }
