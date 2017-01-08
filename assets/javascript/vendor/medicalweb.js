@@ -1,12 +1,18 @@
 $(document).ready(function() {
-	$('.typed-content').typed({
+	$('.typed-content-one').typed({
     strings: [
-    	"Hi.", 
-    	"We are a group of Medical Students", 
-    	"At <strong>Griffith University</strong>, Gold Coast",
-    	"We would like to do <strong>your</strong> typing"
+    	"Ok. Are you listening?",
+    	"Lets Go.", 
+    	"We are a group of <strong>Medical Students</strong> at <strong>Griffith University</strong>, Gold Coast. And..."
     ],
-    typeSpeed: 0
+    typeSpeed: 15
+  });
+
+  $('.typed-content-two').typed({
+    strings: [
+    	"We want to do your typing."
+    ],
+    typeSpeed: 15
   });
 
 });
