@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.typed-content-one').typed({
+	$('.typed-one .type-text').typed({
     strings: [
     	"Ok. Are you listening?",
     	"Lets Go.", 
@@ -8,7 +8,7 @@ $(document).ready(function() {
     typeSpeed: 15
   });
 
-  $('.typed-content-two').typed({
+  $('.typed-two .type-text').typed({
     strings: [
     	"We want to do your typing."
     ],

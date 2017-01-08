@@ -7,12 +7,18 @@ section {
   overflow: hidden;
 }
 
-span[class^="typed-content-"], span[class*=' typed-content-'], span.typed-cursor {
+div[class^="typed-"], div[class*=' typed-'] {
   color: white;
   font-size: 35px;
   text-align: center;
   @media(min-width: 576px) {
     font-size: 45px;
+  }
+}
+
+.typed-one {
+  @media(min-width: 768px) {
+    text-align: left !important;
   }
 }
 
