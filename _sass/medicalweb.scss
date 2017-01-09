@@ -69,7 +69,10 @@ section.main {
 section.keyboard {
   background: #93bc95;
   img {
-    width: 1000px;
+    width: 90vw;
+    @media(min-width: 756px) {
+      width: 1000px;
+    }
   }
 }
 
