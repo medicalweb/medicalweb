@@ -11,6 +11,13 @@
 
 
 .ekg {
+	stroke-width: 2;
+	@media(min-width: 576px) {
+    stroke-width: 1;
+  }
+	@media(min-width: 940px) {
+		stroke-width: 0.5;
+	}
   position: fixed;
   top: 50%;
   bottom: 50%;
