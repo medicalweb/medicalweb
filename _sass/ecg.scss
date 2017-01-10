@@ -11,6 +11,10 @@
 
 
 .ekg {
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  z-index: -1;
   opacity:1;
   stroke-dasharray:600;
   @include animation(dash 3.5s linear forwards infinite,fade 3.5s linear infinite);
