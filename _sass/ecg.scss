@@ -1,0 +1,17 @@
+@keyframes dash {
+  to {
+    stroke-dashoffset:-1200;
+  }
+}
+
+@keyframes fade {
+  0%  {opacity:1}
+  20% {opacity:0}
+}
+
+
+.ekg {
+  opacity:1;
+  stroke-dasharray:600;
+  @include animation(dash 3.5s linear forwards infinite,fade 3.5s linear infinite);
+}

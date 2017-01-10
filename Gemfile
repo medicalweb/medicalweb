@@ -11,6 +11,7 @@ ruby '2.3.3'
 # Happy Jekylling!
 gem "jekyll"
 gem 'github-pages', group: :jekyll_plugins
+gem "bourbon"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 
