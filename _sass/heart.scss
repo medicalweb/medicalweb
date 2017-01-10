@@ -20,7 +20,7 @@ $circleW: 60px;
   display: block;
   left: 50%;
   top: 50%;
-  margin-top: $size/-2;
+  transform: translateY(-50%);
   width: $size;
   height: $size;
   overflow: visible;
