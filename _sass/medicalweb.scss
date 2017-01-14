@@ -2,7 +2,7 @@
 //  padding-top: 52px;
 //}
 
-section {
+.section {
   height: 100vh;
   overflow: hidden;
 }
@@ -39,7 +39,7 @@ p {
   }
 }
 
-section.home {
+.section.home {
   color: white;
   svg {
     overflow: visible;
@@ -48,15 +48,26 @@ section.home {
     position: fixed;
     z-index: -1;
   }
+  .chevron {
+    color: black;
+    height: 100%;
+    //visibility: hidden;
+    animation-delay: 7s;
+    .animated {
+      animation-duration: 1s;
+      animation-delay: 7s;
+      margin-bottom: 20px;
+    }
+  }
 }
 
-section.doctors-busy {
+.section.doctors-busy {
   .background-retro {
     background: url('../assets/images/about.svg');
   }
 }
 
-section.main {
+.section.main {
   background-color: #db5858;
   .casette {
     height: 40vh;
@@ -66,7 +77,7 @@ section.main {
   }
 }
 
-section.keyboard {
+.section.keyboard {
   background: #93bc95;
   img {
     width: 90vw;
@@ -76,7 +87,7 @@ section.keyboard {
   }
 }
 
-section.busy-doctor {
+.section.busy-doctor {
   //height: 100vh;
   background: url('../assets/images/about.svg');
   display: flex;

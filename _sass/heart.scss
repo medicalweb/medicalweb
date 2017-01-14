@@ -8,7 +8,7 @@ $strokeColor: #B8B8B8;
 $heartColor: #E21737;
 $size: 180px; // change this to manipulate overall size
 $totalAnim: 7s;
-$delay: 1s;
+$delay: 0s;
 $squareLen: 240;
 $circleLen: 188.522;
 $heartLen: 308.522;
@@ -169,18 +169,5 @@ $circleW: 60px;
   100% {
     stroke-dashoffset: 0;
     fill: $heartColor;
-  }
-}
-
-.other {
-  position: absolute;
-  left: 0;
-  bottom: 0.5rem;
-  width: 100%;
-  text-align: right;
-  
-  &__link {
-    font-size: 1.3rem;
-    margin: 0 1rem;
   }
 }

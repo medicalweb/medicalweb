@@ -2,48 +2,53 @@
 layout: default
 ---
 
-<section class="home">
+<div id="fullpage">
+	<div class="section home">
 		{% include heart.svg %}
 		{% include ecg.svg %}
-</section>
-
-<section class="main">
-	<div class="row no-gutters align-items-center justify-content-center" style="height: 100vh">
-		<div class="col-12 col-md-6">
-			<div class="d-flex justify-content-center align-items-center">
-				{% include casette.html %}
-			</div>
-		</div>
-		<div class="col-12 col-md-6">
-			<div class="typed-one">
-				<span class="type-text"></span>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="keyboard">
-	<div class="row align-items-center justify-content-center" style="height: 100vh">
-		<div class="col-md-6">
-			<div class="typed-two">
-				<span class="type-text"></span>
-			</div>
-		</div>
-		<div class="col-md-6">
-			<img class="mx-auto d-block" src="../assets/images/keyboard.png"></img>
+		<div class="d-flex justify-content-center align-items-end chevron animated fadeIn">
+			<i class="fa fa-fw fa-chevron-down fa-4x animated infinite bounce"></i>
 		</div>
 	</div>
 
-</section>
-
-<section class="busy-doctor">
-	<div class="middle-cta">
-		<div class="text">
-			<h1>Doctors are busy, we get it...</h1>
-			<p>So let us help you...</p>
-			<a href="mailto:jeremy@medicalweb.com.au" class="btn btn-primary btn-lg">Email</a>
-			<a href="facetime:+61403124920" class="btn btn-primary btn-lg">Call 0403 124 920</a>
+	<div class="section main">
+		<div class="row no-gutters align-items-center justify-content-center" style="height: 100vh">
+			<div class="col-12 col-md-6">
+				<div class="d-flex justify-content-center align-items-center">
+					{% include casette.html %}
+				</div>
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="typed-one">
+					<span class="type-text"></span>
+				</div>
+			</div>
 		</div>
 	</div>
-</section>
+
+	<div class="section keyboard">
+		<div class="row align-items-center justify-content-center" style="height: 100vh">
+			<div class="col-md-6">
+				<div class="typed-two">
+					<span class="type-text"></span>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img class="mx-auto d-block" src="../assets/images/keyboard.png"></img>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="section busy-doctor">
+		<div class="middle-cta">
+			<div class="text">
+				<h1>Doctors are busy, we get it...</h1>
+				<p>So let us help you...</p>
+				<a href="mailto:jeremy@medicalweb.com.au" class="btn btn-primary btn-lg">Email</a>
+				<a href="facetime:+61403124920" class="btn btn-primary btn-lg">Call 0403 124 920</a>
+			</div>
+		</div>
+	</div>
+</div>
 
