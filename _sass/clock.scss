@@ -7,13 +7,17 @@ $short-hand-duration: 6s;
 .section.css-clock {
   background: #01a8dc;
   font-size: 16px;
+  @include media-breakpoint-down(sm) {
+  	[class*="col-"]{
+      margin-bottom: 40px;
+  	}
+	}
 }
 
 .typing-hours {
 	font-size: 10px;
 	text-align: center;
 	@include media-breakpoint-up(sm) {
-  	//font-size: 11px;
   	text-align: left;
 	}
 	@include media-breakpoint-up(md) {
