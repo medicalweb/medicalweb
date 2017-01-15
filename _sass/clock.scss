@@ -1,0 +1,68 @@
+$clock-background: white; 
+$hands-background: black;
+$nut-color: black;
+$long-hand-duration: 2s;
+$short-hand-duration: 6s;
+
+.section.css-clock {
+  background: #01a8dc;
+  h1, h3 {
+  	color: white;
+  }
+  h1 {
+  	font-size: 125px;
+  	margin: 0;
+  }
+  h3 {
+  	font-size: 2.25rem;
+  }
+}
+
+.clock {
+  width: 240px;
+  height: 240px;
+  background: $clock-background;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+  border: solid 20px #1f76a3;
+	border-radius: 50%;
+}
+
+.short-hand, .long-hand {
+  width: 2px;
+  background: $hands-background;
+  position: absolute;
+  top: 99px;
+  left: 99px;
+  @include transform(-180deg);
+  @include transform-origin(0 1px);
+}
+
+.nut {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: 93px;
+  left: 93px;
+  background: $nut-color;
+}
+
+.short-hand {
+  height: 50px;
+  @include animation(rotation $short-hand-duration infinite linear);
+}
+.long-hand {
+  height: 80px;
+  @include animation(rotation $long-hand-duration infinite linear);
+}
+
+@include keyframes(rotation) {
+  0% {
+  	@include transform(rotate(-180deg))
+  }
+  100% {
+   	@include transform(rotate(180deg))
+  }
+}
